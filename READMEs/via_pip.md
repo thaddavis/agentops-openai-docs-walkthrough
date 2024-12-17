@@ -24,3 +24,8 @@ echo "\nagentops>=0.3.21,<0.4.0" >> requirements.txt
 pip install -r requirements.txt
 ```
 
+##
+
+```sh
+deactivate
+```
