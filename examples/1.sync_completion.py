@@ -9,7 +9,7 @@ response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{
         "role": "user",
-        "content": "Write a haiku about AI and humans working together"
+        "content": "Write a marketing slogan for almond butter filled chocolate bar called Heaven"
     }]
 )
 
