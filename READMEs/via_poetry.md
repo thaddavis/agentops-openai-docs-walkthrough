@@ -18,6 +18,7 @@ pip install poetry
 ```
 
 ```sh
+poetry init
 poetry add openai
 poetry run python examples/poetry/1.py
 poetry run python examples/poetry/2.py

@@ -1,17 +1,12 @@
-[tool.poetry]
+[project]
 name = "agentops-openai-docs"
 version = "0.1.0"
-description = ""
-authors = ["tad dy <a@a.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.13"
-openai = "^1.57.4"
-python-dotenv = "^1.0.1"
-agentops = "^0.3.21"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "agentops>=0.3.21",
+    "openai>=1.57.4",
+    "packaging>=24.2",
+    "python-dotenv>=1.0.1",
+]
